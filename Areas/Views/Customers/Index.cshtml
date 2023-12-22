@@ -1,0 +1,22 @@
+﻿@model CustomersVM;
+
+<div class="title">
+    <p>Customers</p>
+    <a class="btn primary-btn" asp-action="AddCustomer" asp-controller="Customers">Add+</a>
+</div>
+
+<div class="box-container">
+    @foreach (var customer in Model.Customers)
+    {
+        <div class="categories-box">
+            <div class="category-name">
+                <p class="customerName">Customer Name: @customer.FirstName</p>
+                <p class="customerName">Customer Name: @customer.LastName</p>
+                <p class="customerEmail">Customer Email: @customer.Email</p>
+            </div>
+            <a class="btn" asp-controller="Customers" asp-action="UpdateCustomer" asp-route-id="@customer.Id">Update</a>
+            <a class="btn" asp-controller="Customers" asp-action="Delete" asp-route-id="@customer.Id">Delete</a>
+        </div>
+    }
+
+</div>

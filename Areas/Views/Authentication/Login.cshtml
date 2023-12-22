@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebApp.Areas.Models.LoginVM;
+
+<div class="row">
+    <div class="col-md-12">
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" type="text" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input asp-for="RememberMe" type="checkbox" class="custom-control-input">
+                    <label class="custom-control-label" asp-for="RememberMe">@Html.DisplayNameFor(m => m.RememberMe)</label>
+                </div>
+
+            </div>
+            <button type="submit" class="btn-primary">Login</button>
+        </form>
+
+    </div>
+</div>
+<section class="vh-100 bg-image"
+         style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-5">
+                            <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+                            <form method="post">
+                                <div asp-validation-summary="All" class="text-danger">
+
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <input type="email" asp-for="Email" class="form-control form-control-lg" />
+                                    <label class="form-label" asp-for="Email">Your Email</label>
+                                </div>
+
+                                <div class="form-outline mb-4">
+                                    <input type="password" asp-for="Password" class="form-control form-control-lg" />
+                                    <label class="form-label" asp-for="Password">Password</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="custom-control custom-checkbox">
+                                        <input asp-for="RememberMe" type="checkbox" class="custom-control-input">
+                                        <label class="custom-control-label" asp-for="RememberMe">@Html.DisplayNameFor(m => m.RememberMe)</label>
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+                                        <button type="submit"
+                                                class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">
+                                            Login
+                                        </button>
+                                    </div>
+
+                                    <p class="text-center text-muted mt-5 mb-0">
+                                        Have already haven't an account? <a asp-action="Register" asp-controller="Authentication"
+                                                                            class="fw-bold text-body"><u>Login here</u></a>
+                                    </p>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

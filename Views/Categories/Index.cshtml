@@ -1,0 +1,21 @@
+@model CategoriesVM;
+    @{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="title">
+    <p>Categories</p>
+    <button>Add+</button>
+    </div>
+
+    <div class="box-container">
+    @foreach (var category in Model.Categories)
+{
+    <div class="categories-box">
+        <div class="category-name">
+        <p>@category.Name</p>
+        </div>
+        </div>
+}
+
+</div>

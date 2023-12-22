@@ -1,0 +1,27 @@
+﻿@model OrdersVM;
+
+<div class="title">
+    <p>Orders</p>
+    <a asp-action="AddOrder" asp-controller="Orders">Add+</a>
+</div>
+
+    
+
+<div class="box-container">
+    @foreach (var product in Model.Orders)
+    {
+        <div class="categories-box">
+            <div class="category-name">
+                <div class="img">
+                    <img src="" alt="shekil">
+                </div>
+                <p class="productName">Product Name: @product.Products.Name</p>
+                <p class="customerName">Customer Name: @product.Customers.FirstName</p>
+                <p class="productPrice">Product Price: @product.Products.Price</p>
+                <p class="orderDate">Order Date: @product.OrderDate</p>
+            </div>
+            <a class="btn" asp-controller="Orders" asp-action="UpdateOrder" asp-route-id="@product.Id">Update</a>
+            <a class="btn" asp-controller="Orders" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+        </div>
+    }
+</div>

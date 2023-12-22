@@ -1,0 +1,39 @@
+﻿@model CustomerAddVM;
+<h1>Product add page</h1>
+
+<form asp-controller="Customers" asp-action="AddCustomer" method="post" class="row g-3" enctype="multipart/form-data">
+    <div class="text-danger" asp-validation-summary="All">
+
+    </div>
+
+    <div class="col-md-12">
+        <label for="1" class="form-label">First Name</label>
+        <input asp-valid asp-for="FirstName" type="text" class="form-control" id="1">
+        <span class="text-danger" asp-validation-for="FirstName"></span>
+    </div>
+    <div class="col-md-4">
+        <label for="2" class="form-label">Last Name</label>
+        <input asp-for="Lastname" type="text" class="form-control" id="2">
+        <span class="text-danger" asp-validation-for="Lastname"></span>
+    </div>
+    <div class="col-md-4">
+        <label for="2" class="form-label">Email</label>
+        <input step="0.1" asp-for="Email" type="email" class="form-control" id="2">
+        <span class="text-danger" asp-validation-for="Email"></span>
+    </div>
+
+    @*<div class="col-md-4">
+            <label for="5" class="form-label">Photo</label>
+            <input asp-for="Photo" class="form-control" id="5">
+            <span class="text-danger" asp-validation-for="Photo"></span>
+        </div>*@
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Add product</button>
+    </div>
+</form>
+
+@section ValidationScript{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+}

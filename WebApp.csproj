@@ -1,0 +1,212 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.14" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.14">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.SqlServer.Server" Version="1.0.0" />
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Entities.cs" />
+      <Compile Remove="Views\Models\CategoriesVM.cs" />
+      <Compile Remove="Views\Models\CategoryAddVM.cs" />
+      <Compile Remove="Views\Models\CategoryUpdateVM.cs" />
+      <Compile Remove="Views\Models\CustomerAddVM.cs" />
+      <Compile Remove="Views\Models\CustomersVM.cs" />
+      <Compile Remove="Views\Models\CustomerUpdateVM.cs" />
+      <Compile Remove="Views\Models\ErrorViewModel.cs" />
+      <Compile Remove="Views\Models\OrderAddVM.cs" />
+      <Compile Remove="Views\Models\OrdersVM.cs" />
+      <Compile Remove="Views\Models\OrderUpdateVM.cs" />
+      <Compile Remove="Views\Models\ProductAddVM.cs" />
+      <Compile Remove="Views\Models\ProductsVM.cs" />
+      <Compile Remove="Views\Models\ProductUpdateVM.cs" />
+      <Compile Remove="Views\Models\**" />
+      <Compile Remove="Models\HomeVM.cs" />
+      <Compile Remove="Views\Categories\**" />
+      <Compile Remove="Views\Customers\**" />
+      <Compile Remove="Views\Orders\**" />
+      <Compile Remove="Views\Products\**" />
+      <Compile Remove="Models\ErrorViewModel.cs" />
+      <Compile Remove="Areas\Are\**" />
+      <Compile Include="Areas\Controllers\AuthenticationController.cs" />
+      <Compile Include="Areas\Controllers\CategoriesController.cs" />
+      <Compile Include="Areas\Controllers\CustomersController.cs" />
+      <Compile Remove="Areas\Views\Models\**" />
+      <Compile Include="Areas\Models\CategoriesVM.cs" />
+      <Compile Include="Areas\Models\CategoryAddVM.cs" />
+      <Compile Remove="Areas\Views\Customers\**" />
+      <Compile Remove="Areas\Views\Categories\**" />
+      <Compile Remove="Areas\Views\Home\**" />
+      <Compile Remove="Areas\Views\Orders\**" />
+      <Compile Remove="Areas\Views\Products\**" />
+      <Compile Remove="Areas\Views\Shared\**" />
+      <Compile Include="Areas\Models\LoginVM.cs" />
+      <Compile Include="Areas\Models\RegisterVM.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Views\Models\**" />
+      <EmbeddedResource Remove="Views\Categories\**" />
+      <EmbeddedResource Remove="Views\Customers\**" />
+      <EmbeddedResource Remove="Views\Orders\**" />
+      <EmbeddedResource Remove="Views\Products\**" />
+      <EmbeddedResource Remove="Areas\Are\**" />
+      <EmbeddedResource Remove="Areas\Views\Models\**" />
+      <EmbeddedResource Remove="Areas\Views\Customers\**" />
+      <EmbeddedResource Remove="Areas\Views\Categories\**" />
+      <EmbeddedResource Remove="Areas\Views\Home\**" />
+      <EmbeddedResource Remove="Areas\Views\Orders\**" />
+      <EmbeddedResource Remove="Areas\Views\Products\**" />
+      <EmbeddedResource Remove="Areas\Views\Shared\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Views\Models\**" />
+      <Content Remove="Views\Categories\**" />
+      <Content Remove="Views\Customers\**" />
+      <Content Remove="Views\Orders\**" />
+      <Content Remove="Views\Products\**" />
+      <Content Remove="Views\Shared\Error.cshtml" />
+      <Content Remove="Areas\Are\**" />
+      <Content Remove="Areas\Views\Models\**" />
+      <Content Remove="Areas\Views\Customers\**" />
+      <Content Remove="Areas\Views\Categories\**" />
+      <Content Remove="Areas\Views\Home\**" />
+      <Content Remove="Areas\Views\Orders\**" />
+      <Content Remove="Areas\Views\Products\**" />
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Categories\AddCategory.cshtml">
+        <Link>Areas\Views\Categories\AddCategory.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Categories\Index.cshtml">
+        <Link>Areas\Views\Categories\Index.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Categories\Privacy.cshtml">
+        <Link>Areas\Views\Categories\Privacy.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Categories\Update.cshtml">
+        <Link>Areas\Views\Categories\Update.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Customers\AddCustomer.cshtml">
+        <Link>Areas\Views\Customers\AddCustomer.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Customers\Index.cshtml">
+        <Link>Areas\Views\Customers\Index.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Customers\UpdateCustomer.cshtml">
+        <Link>Areas\Views\Customers\UpdateCustomer.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Orders\AddOrder.cshtml">
+        <Link>Areas\Views\Orders\AddOrder.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Orders\Index.cshtml">
+        <Link>Areas\Views\Orders\Index.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Orders\UpdateOrder.cshtml">
+        <Link>Areas\Views\Orders\UpdateOrder.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Products\AddProduct.cshtml">
+        <Link>Areas\Views\Products\AddProduct.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Products\Index.cshtml">
+        <Link>Areas\Views\Products\Index.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Products\UpdateProduct.cshtml">
+        <Link>Areas\Views\Products\UpdateProduct.cshtml</Link>
+      </Content>
+      <Content Remove="Areas\Views\Shared\**" />
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Shared\_Layout.cshtml">
+        <Link>Areas\Views\Shared\_Layout.cshtml</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Shared\_Layout.cshtml.css">
+        <Link>Areas\Views\Shared\_Layout.cshtml.css</Link>
+      </Content>
+      <Content Include="..\..\Projects\admin-panel\admin-panel\Views\Shared\_ValidationScriptsPartial.cshtml">
+        <Link>Areas\Views\Shared\_ValidationScriptsPartial.cshtml</Link>
+      </Content>
+      <Content Include="Areas\Admin\Pages\Authentication\Login.cshtml" />
+      <Content Include="Areas\Admin\Pages\Authentication\Register.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Categories\AddCategory.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Categories\Index.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Categories\Update.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Customers\AddCustomer.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Customers\Index.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Customers\UpdateCustomer.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Orders\AddOrder.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Orders\Index.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Orders\UpdateOrder.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Products\AddProduct.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Products\Index.cshtml" />
+      <Content Include="Areas\Controllers\Pages\Products\UpdateProduct.cshtml" />
+      <Content Include="Areas\Views\Authentication\Register.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Views\Models\**" />
+      <None Remove="Views\Categories\**" />
+      <None Remove="Views\Customers\**" />
+      <None Remove="Views\Orders\**" />
+      <None Remove="Views\Products\**" />
+      <None Remove="Areas\Are\**" />
+      <None Remove="Areas\Views\Models\**" />
+      <None Remove="Areas\Views\Customers\**" />
+      <None Remove="Areas\Views\Categories\**" />
+      <None Remove="Areas\Views\Home\**" />
+      <None Remove="Areas\Views\Orders\**" />
+      <None Remove="Areas\Views\Products\**" />
+      <None Remove="Areas\Views\Shared\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Areas\Views\Categories\AddCategory.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Categories\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Categories\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Categories\Update.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Customers\AddCustomer.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Customers\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Customers\UpdateCustomer.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Orders\AddOrder.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Orders\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Orders\UpdateOrder.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Products\AddProduct.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Products\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Products\UpdateProduct.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Shared\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\Shared\_ValidationScriptsPartial.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Views\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Categories\AddCategory.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Categories\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Categories\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Categories\Update.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Customers\AddCustomer.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Customers\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Customers\UpdateCustomer.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Orders\AddOrder.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Orders\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Orders\UpdateOrder.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\AddProduct.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\UpdateProduct.cshtml" />
+    </ItemGroup>
+
+</Project>

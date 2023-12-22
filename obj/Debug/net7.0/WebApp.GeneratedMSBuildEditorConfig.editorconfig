@@ -1,0 +1,203 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApp
+build_property.RootNamespace = WebApp
+build_property.ProjectDir = /Users/zilishzulfugarli/RiderProjects/WebApp/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/zilishzulfugarli/RiderProjects/WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Admin/Pages/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXV0aGVudGljYXRpb24vTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXV0aGVudGljYXRpb24vTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Admin/Pages/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXV0aGVudGljYXRpb24vUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQXV0aGVudGljYXRpb24vUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Categories/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ2F0ZWdvcmllcy9BZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ2F0ZWdvcmllcy9BZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Categories/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ2F0ZWdvcmllcy9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ2F0ZWdvcmllcy9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Customers/AddCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ3VzdG9tZXJzL0FkZEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ3VzdG9tZXJzL0FkZEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ3VzdG9tZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ3VzdG9tZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Customers/UpdateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ3VzdG9tZXJzL1VwZGF0ZUN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvQ3VzdG9tZXJzL1VwZGF0ZUN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Orders/AddOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvT3JkZXJzL0FkZE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvT3JkZXJzL0FkZE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvT3JkZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvT3JkZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Orders/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvT3JkZXJzL1VwZGF0ZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvT3JkZXJzL1VwZGF0ZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Products/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvUHJvZHVjdHMvQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvUHJvZHVjdHMvQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvUHJvZHVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvUHJvZHVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Controllers/Pages/Products/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvUHJvZHVjdHMvVXBkYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29udHJvbGxlcnMvUGFnZXMvUHJvZHVjdHMvVXBkYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQXV0aGVudGljYXRpb24vTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQXV0aGVudGljYXRpb24vUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQXV0aGVudGljYXRpb24vUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Areas/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Categories/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQ2F0ZWdvcmllcy9BZGRDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Categories/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQ2F0ZWdvcmllcy9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Categories/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQ2F0ZWdvcmllcy9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Customers/AddCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQ3VzdG9tZXJzL0FkZEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQ3VzdG9tZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Customers/UpdateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvQ3VzdG9tZXJzL1VwZGF0ZUN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Orders/AddOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvT3JkZXJzL0FkZE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvT3JkZXJzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Orders/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvT3JkZXJzL1VwZGF0ZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Products/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvUHJvZHVjdHMvQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Products/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvUHJvZHVjdHMvVXBkYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zilishzulfugarli/RiderProjects/WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wrkb45jn1q
+
+[/Users/zilishzulfugarli/Projects/admin-panel/admin-panel/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-beoingbuu8

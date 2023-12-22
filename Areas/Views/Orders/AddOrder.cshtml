@@ -1,0 +1,36 @@
+﻿@model OrderAddVM;
+<h1>Order add page</h1>
+
+<form asp-controller="Orders" asp-action="AddOrder" method="post" class="row g-3" enctype="multipart/form-data">
+    <div class="text-danger" asp-validation-summary="All">
+
+    </div>
+
+    <div class="col-md-4">
+        <label for="4" class="form-label">Product</label>
+        <select asp-for="ProductId" asp-items="@Model.products" class="form-control" required>
+            <option>Please select one</option>
+        </select>
+    </div>
+    <div class="col-md-4">
+        <label for="4" class="form-label">Customer</label>
+        <select asp-for="CustomerId" asp-items="@Model.customers" class="form-control" required>
+            <option>Please select one</option>
+        </select>
+    </div>
+
+    @*<div class="col-md-4">
+            <label for="5" class="form-label">Photo</label>
+            <input asp-for="Photo" class="form-control" id="5">
+            <span class="text-danger" asp-validation-for="Photo"></span>
+        </div>*@
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Add product</button>
+    </div>
+</form>
+
+@section ValidationScript{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+}
